@@ -1,0 +1,27 @@
+<div id="landing">
+  <div class="container">
+    <h2>Signup</h2>
+    <a [routerLink]="['']">Already have an account, Sign In!</a>
+    <div class="row">
+      <form [formGroup]="form">
+        <div class="input-field">
+          <input formControlName="email" id="email" class="validate" type="email">
+          <label for="email">email</label>
+        </div>
+        <div class="input-field">
+            <input formControlName="username" id="username" class="validate" type="text">
+            <label for="username">username</label>
+          </div>
+        <div class="input-field">
+          <input formControlName="password" id="password" class="validate" type="password">
+          <label for="password">password</label>
+        </div>
+        <div class="input-field">
+          <input formControlName="confirmPassword" id="confirmPassword" class="validate" type="password">
+          <label for="confirmPassword">Confirm Password</label>
+        </div>
+      </form>
+      <button class="btn btn-waves" (click)="signUp()">Signup</button>
+    </div>
+  </div>
+</div>

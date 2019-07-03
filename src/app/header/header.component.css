@@ -1,0 +1,12 @@
+#logo {
+    margin-left: 20%;
+    /* font-display: Apple Chancery, cursive */
+}
+
+nav {
+    background-color: rgb(63, 114, 155)
+}
+
+input::placeholder {
+    color: white;
+}

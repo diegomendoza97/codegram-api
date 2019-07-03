@@ -1,0 +1,60 @@
+.container {
+    margin-top: 10%;
+    height: 400px;
+    /* width: 800px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+a {
+    margin: 0 auto;
+    /* width: 0%; */
+    color: #26a69a;
+}
+
+h2 {
+    color: black;
+}
+
+
+#landing {
+    position: absolute; top: 0; left: 0;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    /* -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; */
+    color:lightgrey;
+}
+
+input[type="text"], input[type="password"] {
+    color: black;
+    width: 250%;
+    
+}
+
+label  {
+    color: #26a69a;
+}
+
+input[type="text"], input[type="password"], label {
+    margin-left: -50px;
+}
+
+button {
+    background-color: rgb(63, 114, 155)
+}
+
+
+.error-message {
+    font-weight: bold;
+    color: rgb(143, 9, 9);
+    padding: 0 3px;
+}
+.error {
+    background-color: #e69696;
+}
